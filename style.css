@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+p, h6 {
+    margin: 0;
+}
+
+.header {
+    background-image: url(./img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.nav a {
+    font-size: 15px;
+    line-height: 16px;
+    color: #444444;
+}
+
+.header-center h1 {
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+    color: #45525B;
+    width: 520px;
+}
+
+.title {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #FF8A63;
+    text-transform: uppercase;
+}
+
+.page-title {
+    font-size: 36px;
+    line-height: 43px;
+    color: #45525B;
+}
+
+.suptitle {
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F7278;
+}
+
+.goal {
+    background-color: #FAFAFC;
+    padding: 100px 0;
+}
+
+.goal-left {
+    width: 491px;
+}
+
+.goal-left h1 {
+    font-size: 48px;
+    line-height: 53px;
+    color: #45525B;
+}
+
+.goal-right {
+    width: 570px;
+}
+
+.listings-item {
+    width: 300px;
+    height: 167px;
+    padding: 21px;
+}
+
+.listings-item:hover {
+    transform: scale(1.02);
+    transition: 0.4s;
+    background: #FAFAFC;
+    border: 1px solid rgba(202, 204, 209, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px grey;
+}
+
+.requir-img:hover {
+    transform: scale(1.04);
+    transition: 0.4s;
+    box-shadow: 3px 20px 15px grey;
+}
+
+.listings-item h5 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #45525B;
+    margin-top: 10px;
+}
+
+.listings-item p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6F7278;
+}
+
+.big-room {
+    background-image: url(./img/bg-img-2.jpg);
+    background-size: cover;
+    height: 624px;
+    margin-top: 87px;
+}
+
+.current {
+    background-color: #FAFAFC;
+    padding: 99px 0 101px;
+}
+
+.card__item {
+    width: 379px;
+    height: 385px;
+    background-color: #fff;
+}
+.card__item:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card__item span {
+    display: flex;
+    gap: 10px;
+}
+
+.card__item p {
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+    margin-top: 20px;
+}
+
+.card__item h3 {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #45525B;
+}
+
+.card__item h6 {
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #45525B;
+}
+
+.user-item {
+    width: 360px;
+}
+
+.user-name {
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+}
+
+.user-profession {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
+
+.newsroom {
+    background-color: #FAFAFC;
+    padding: 99px 0 101px;
+}
+
+.card-item-room {
+    border-radius: 10px;
+    height: 364px;
+    width: 376px;
+}
+.card-item-room:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card-info {
+    padding: 30px 0 0 30px;
+}
+
+.card-info .card-title {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+
+.card-info .card-subtitle {
+    line-height: 19px;
+    color: #45525B;
+    height: 40px;
+}
+
+.card-info .card-date {
+    font-size: 13px;
+    line-height: 20px;
+    color: #6F7278;
+}
+
+.custom {
+    padding: 99px 0 70px;
+}
+
+.carousel-item__inner {
+    border: 1px solid rgba(82, 80, 59, 0.1);
+    border-radius: 4px;
+    padding: 32px;
+    width: 49%;
+}
+
+.carousel-item__inner span::before {
+    content: ""; 
+    border-left: 2px solid #FF8A63;
+    height: 24px;
+    margin-right: 9px;
+}
+
+.carousel-item__inner h2 {
+    line-height: 29px;
+    color: #333333;
+}
+
+.carousel-item__inner p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.carousel-item__inner h5 {
+    font-size: 16px;
+    line-height: 16px;
+    color: #45525B;
+}
+
+.btns {
+    bottom: -40px;
+    right: 20px;
+    width: 70px;
+}
+
+.contact {
+    background-color: #444C49;
+    padding: 99px 0 100px;
+}
+
+.contact-title {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #FAFAFC;
+}
+
+.contact-subtitle {
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.about-contact {
+    font-size: 18px;
+    line-height: 22px;
+    color: #FAFAFC;
+}
+
+.submit-btns button {
+    font-size: 15px;
+    line-height: 22px;
+    color: #45525B;
+}
+
+.footer {
+    background-color: #292928;
+    padding: 100px 0 100px;
+}
+
+.menu a {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.newsletter {
+    width: 458px;
+    height: 53px;
+    border-radius: 8px;
+    background-color: #F7E8CA;
+    padding: 8px 30px;
+}
+
+.newsletter button {
+    background-color: #3A4443;
+    border-radius: 10px;
+}
+
+.newsletter button:hover {
+    background-color: #292928;
+}
+
+.newsletter input:placeholder {
+    font-size: 16px;
+    line-height: 22px;
+    color: #6F7278;
+}
+
+.newsletter input {
+    outline: none;
+    background-color: #F7E8CA;
+}
